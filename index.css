@@ -1,0 +1,147 @@
+body{
+    margin: 0%;
+}
+.navbar{
+    position: relative;
+    margin: 0%;
+    height: 200px;
+    top: -100px;
+    background-color: hsl(204, 75%, 62%);
+}
+.body{
+    bottom: 100px;
+    height: 0px;
+    width: 0px;
+    margin-top: 100px;
+    border: 100px solid ;
+    border-radius:20% 30% 3010% 3% ;
+    border-color: hsl(188, 18%, 40%);
+    box-sizing: content-box;
+    
+}
+.body:hover #eye{
+    border-color: hsl(0, 92%, 40%);
+}
+.body:hover #mouth{
+    display: none;
+}
+.body:hover #t1{
+    display: none;
+}
+#mouth{
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    left: 70px;
+    border: 50px solid hsl(204, 75%, 62%);
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-radius:11% 30% 890% 301%/ 3% 4% 959% 590%;
+    bottom: 40px;
+    right: 29px;
+    transform: rotate(-20deg);
+}
+#eye{
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    border: 20px solid rgb(255, 255, 255);
+    top: 20px;
+    left: 130px;
+    border-radius: 10px 2320px;
+}
+#eye:hover{
+    border: 20px solid rgb(0, 0, 0);
+}
+#iball{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    bottom: 150px;
+    left: 140px;
+    background-color: black;
+    border-radius: 100%;
+}
+#mark1{
+    position: absolute;
+    height: 20px;
+    width: 0px;
+    border: 10px solid hsl(0, 1%, 22%);
+    border-width: 8px;
+    top: 0px;
+    left: 8px;
+    border-radius: 20% 344456% 9999999% ;
+}
+#mark2{
+    position: absolute;
+    height: 10px;
+    width: 0px;
+    border: 10px solid hsl(0, 5%, 29%);
+    border-width: 8px;
+    top: 0px;
+    left: 50px;
+    border-radius: 20% 344456% 9999999% ;
+}
+#t1{
+    display: block;
+    position: absolute;
+    height: 15px;
+    width: 0px;
+    border: 10px solid hsl(0, 100%, 100%);
+    border-width: 8px;
+    bottom: 64px;
+    left: 100px;
+    transform: rotate(20.5deg);
+    border-radius: 20% 344456% 9999999% ;
+}
+.body:hover #mouth2{
+    display: block;
+}
+#mouth2{
+    position: relative;
+    height: 0px;
+    width: 100px;
+    border: 5px solid;
+    border-radius: 100%  35%  200% / 50% 20% 150%;
+    top: 2px;
+    bottom: 25vh;
+    left: -50px;
+    transform: rotate(207deg);
+    display: none;
+}
+.content{
+    margin-top: -150px;
+}
+.content li{
+    float: right;
+    padding: 10px;
+    
+}
+.content li a{
+    text-decoration: none;
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+    border-top: 5px solid brown;
+    border-radius: 0% 50% 50%/0% 50% 50%;
+    background-color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content li{
+    list-style-type: none;   
+}
+.card{
+    height: 350px;
+    width: 260px;
+    border-radius: 2%;
+    box-shadow: 8px 10px 20px;
+    margin: auto;
+    text-align: center;
+}
+label{
+    display: block;
+    font-size: 50px;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
