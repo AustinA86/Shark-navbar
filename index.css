@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    background-color: hsl(44, 100%, 92%);
 }
 .navbar{
     position: relative;
@@ -17,13 +18,13 @@ body{
     border-radius:20% 30% 3010% 3% ;
     border-color: hsl(188, 18%, 40%);
     box-sizing: content-box;
-    
 }
 .body:hover #eye{
     border-color: hsl(0, 92%, 40%);
 }
 .body:hover #mouth{
-    display: none;
+    /* border-radius: 100%; */
+    border-color: hsl(188, 18%, 40%);
 }
 .body:hover #t1{
     display: none;
@@ -40,6 +41,7 @@ body{
     bottom: 40px;
     right: 29px;
     transform: rotate(-20deg);
+    transition: border-color 0.10s;
 }
 #eye{
     position: absolute;
@@ -50,6 +52,7 @@ body{
     top: 20px;
     left: 130px;
     border-radius: 10px 2320px;
+    transition: border-color 0.6s;
 }
 #eye:hover{
     border: 20px solid rgb(0, 0, 0);
@@ -124,7 +127,7 @@ body{
     width: 20px;
     padding: 20px;
     border-top: 5px solid brown;
-    border-radius: 0% 50% 50%/0% 50% 50%;
+    border-radius: 100%;
     background-color: blanchedalmond;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -135,13 +138,17 @@ body{
     height: 350px;
     width: 260px;
     border-radius: 2%;
-    box-shadow: 8px 10px 20px;
+    box-shadow: 5px 6px 15px;
     margin: auto;
     text-align: center;
+    background-color: hsl(313, 87%, 21%);
+    transition: transform 0.6s;
 }
 label{
     display: block;
     font-size: 50px;
-    font-style: oblique;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Courier New', monospace;
+}
+.card:hover{
+    transform: rotateY(90deg);
 }
